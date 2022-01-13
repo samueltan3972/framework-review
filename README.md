@@ -17,12 +17,12 @@ Performance analysis has been carry out with following specification:
 
 ## Performance Result
 
-#### Container Result
+### Container Result
 Lower is better
 
 ![Container Result](img/container-result.png)
 
-#### HTTP Benchmarking
+### HTTP Benchmarking
 **/hello (return hello world message)**
 * for error: number of error / number of request made
 * container not available for scaling
