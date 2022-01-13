@@ -15,27 +15,39 @@ Performance analysis has been carry out with following specification:
 - /database : 6 threads, 400 connections, 10s timeout, running time 30s 
 - /fibonacci: 2 threads, 30 connections, 25s timeout, running time 100s
 
-## Result
+## Performance Result
 
 #### Container Result
 Lower is better
 
+![Container Result](img/container-result.png)
 
 #### HTTP Benchmarking
-** /hello (return hello world message) **
+**/hello (return hello world message)**
 * for error: number of error / number of request made
 * container not available for scaling
 * 6 threads, 400 connections, 5s timeout, running time 30s
 
+![Hello World Result](img/hello-result.png)
 
-** /database (perform database all CRUD operation in one API) **
+**/database (perform database all CRUD operation in one API)**
 * for error: number of error / number of request made
 * database connection is not optimized
 * 6 threads, 400 connections, 10s timeout, running time 30s 
 
+![Database Result](img/database-result.png)
 
-** /fibonacci (compute first 5,000 fibonacci numbers) **
+
+**/fibonacci (compute first 5,000 fibonacci numbers)**
 * for error: number of error / number of request made
 * container not available for scaling
 * 2 threads, 30 connections, 25s timeout, running time 100s
 
+![Fibonacci Result](img/fibonacci-result.png)
+
+
+## External link to the source
+- [https://github.com/samueltan3972/test-with-spring](https://github.com/samueltan3972/test-with-spring)
+- [https://github.com/samueltan3972/test-with-quarkus](https://github.com/samueltan3972/test-with-quarkus)
+- [https://github.com/samueltan3972/test-with-gin](https://github.com/samueltan3972/test-with-gin)
+- [https://github.com/samueltan3972/test-with-revel](https://github.com/samueltan3972/test-with-revel)
