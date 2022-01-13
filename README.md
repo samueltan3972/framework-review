@@ -1,4 +1,4 @@
-# framework-review
+# Framework-review
 An overview of microservices framework with Spring Boot, Quarkus, Gin and Revel
 
 Sample application developed with 4 features:
