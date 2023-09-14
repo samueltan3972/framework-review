@@ -46,8 +46,8 @@ Lower is better
 ![Fibonacci Result](img/fibonacci-result.png)
 
 
-## External link to the source
-- [https://github.com/samueltan3972/test-with-spring](https://github.com/samueltan3972/test-with-spring)
-- [https://github.com/samueltan3972/test-with-quarkus](https://github.com/samueltan3972/test-with-quarkus)
-- [https://github.com/samueltan3972/test-with-gin](https://github.com/samueltan3972/test-with-gin)
-- [https://github.com/samueltan3972/test-with-revel](https://github.com/samueltan3972/test-with-revel)
+## Link to the source
+- [test-with-spring](https://github.com/samueltan3972/framework-review/tree/main/test-with-spring)
+- [test-with-quarkus](https://github.com/samueltan3972/framework-review/tree/main/test-with-quarkus)
+- [test-with-gin](https://github.com/samueltan3972/framework-review/tree/main/test-with-gin)
+- [test-with-revel](https://github.com/samueltan3972/framework-review/tree/main/test-with-revel)
