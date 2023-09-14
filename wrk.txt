@@ -1,0 +1,3 @@
+wrk -t6 -c400 -d30s --latency -- timeout 3s http://127.0.0.1:8080/hello
+wrk -t6 -c400 -d30s --latency -- timeout 3s http://127.0.0.1:8080/database
+wrk -t6 -c400 -d30s --latency -- timeout 3s http://127.0.0.1:8080/fibonacci
