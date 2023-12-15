@@ -1,0 +1,14 @@
+Canva slide:
+https://www.canva.com/design/DAE0Z0DcMi8/gfXVBMNn7Ck1_wHsjvrJFQ/view?utm_content=DAE0Z0DcMi8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
+
+github repo:
+https://github.com/samueltan3972/framework-review/tree/main/test-with-revel
+https://github.com/samueltan3972/framework-review/tree/main/test-with-gin
+https://github.com/samueltan3972/framework-review/tree/main/test-with-quarkus
+https://github.com/samueltan3972/framework-review/tree/main/test-with-spring
+
+API Example (/hello, /database, /fibonacci):
+http://localhost:8080/hello
+http://localhost:8080/hello
+http://localhost:8080/hello
+http://localhost:8080/hello
